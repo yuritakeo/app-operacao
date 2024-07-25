@@ -23,4 +23,8 @@ public class VeiculoService {
         return obj.get();
     }
 
+    public Veiculo insert(Veiculo veiculo){
+        return repository.save(veiculo);
+    }
+
 }
